@@ -88,7 +88,7 @@ const changered = ()=>{
     <Navbar title="Text Helper" mode= {mode} toggleStyle= {toggleStyle} buttonText = {buttonText}  changegreen={changegreen} 
     changered={changered} changeyellow={changeyellow} />
     <Alert alert = {alert}/>
-    <div className="container">
+    <div className="container my-3">
           <TextFrom showAlert ={showAlert} heading ="Enter your text to analyze"/>       
     </div>
 </>

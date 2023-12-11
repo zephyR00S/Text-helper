@@ -90,7 +90,7 @@ export default function TextFrom(props) {
     <div className="container pt-3">
         <h1>Your text summary</h1>
         <hr></hr>
-        <p>{text.split(" ").filter((element)=>{
+        <p>{text.split(/\s+/).filter((element)=>{
             return element.length!==0
         }).length} words</p>
         <p>{text.length} characters</p>
